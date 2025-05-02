@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0px;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* css variables */
+:root{
+    --navbar-hight:50px;
+}
+/* navbigitionbar */
+
+/* navigation bar: logo and image */
+
+#logo image{
+    height: 20px;
+    
+    margin: 3px 6px;
+
+
+}
+/* navigation bar */
+
+#navbar{
+    position:sticky;
+    display: flex;
+    top:0px
+
+}
+#navbar ul{
+    display: flex;
+    
+    }
+    #navbar::before{
+        content: "";
+        background-color: black;
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.4;
+    
+    }
+#navbar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem;
+    
+    
+
+
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+
+}
+a:hover{
+    background-color:blue;
+}
+#imgh{
+    height:60px;
+    width:70px;
+    padding: 5px 20px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:189px;
+    
+    justify-content: center;
+    align-items: center;
+    height:10px;
+    
+    
+    
+}
+#home::before{
+    content: "";
+        background:url(image\ copy\ 3.png) no-repeat center center/cover;
+        position: absolute;
+        top:0px;
+        left: 0px;
+        height:75%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.89;
+    
+}
+#home h1{
+    padding: 5px 50px;
+    color: white;
+    text-align: center;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'bree serif,serif';
+}
+/* srevice ceneter */
+.service_contaneer{
+    
+    background-color:beige;
+    margin-top:85px;
+    
+}
+#service{
+    margin:2px;
+    display: flex;
+    }
+
+#service .box{
+border: 2px solid brown;
+padding:30px;
+margin: 2px 55px;
+border-radius: 28px;
+background-color: #f2f2f2;
+margin-bottom:5px;
+
+
+}
+#service .box img{
+    width: 200px;
+    height:100px;
+    margin:auto ;
+    display: block;
+    
+}
+
+/* cantact  */
+#contact{
+    position:relative;
+    margin-top:70px;
+    /* height: 70vh; */
+    
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: url(image\ copy\ 8.png) no-repeat center center/cover;
+}
+
+
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+    
+
+}
+
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+#submit{
+    background-color:cornflowerblue;
+
+}
+#submit:hover{
+    background-color: red;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+
+
+/* utility class */
+.text_center{
+    text-align: center;
+}
+.h_pr_center{
+    
+    font-size: 2.2rem;
+    
+    text-align: center;
+
+}
+/* clients section */
+#client-section{
+    text-align: center;
+    font-size:2rem;
+    /* height: 200px; */
+
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+#clients img{
+    height:20vh;
+}
+.clients-item{
+    padding: 34px;
+}
+
+#clients::before{
+    content:"";
+    position: absolute;
+    background:url('project2/background-8266762_960_720.webp');
+    width:100%;
+    height:60%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#h_s{
+    font-size: 1.8rem;
+    padding: 12px;
+    text-align: center;
+}
+.butt{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.butt:hover{
+    background-color: blue;
+}
+/* clients section */
+#client-section{
+    text-align: center;
+    font-size: 28px;
+    height:300px;
+    margin-top: 35px;
+    
+
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h{
+border: 2px solid black;
+font-size: 30px;
+
+background-color: blue;
+color: white;
+}
+.h:hover{
+    background-color: greenyellow;
+}
+a{
+    text-decoration: none;
+}
